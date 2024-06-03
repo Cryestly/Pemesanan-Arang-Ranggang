@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/blogin.jpg);
+  background-size: cover;
+  font-family: arial;
+}
+
+.container {
+  height: 370px;
+  width: 270px;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(31, 29, 31, 0.56);
+  position: absolute;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 30px;
+}
+img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: -40px;
+  left: calc(50% - 40px);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  padding-top: 35px;
+  font-size: 20px;
+}
+#input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 11px;
+  margin: 15px;
+  outline: none;
+  color: white;
+}
+#submit {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+}
+#submit:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0000008e;
+  cursor: pointer;
+}
+.punyaakun {
+  color: white;
+  text-decoration: none;
+}
